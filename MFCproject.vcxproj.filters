@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\MyOwnClass">
+      <UniqueIdentifier>{5ff88773-f784-4449-abe2-9b33d2c6ebf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MyOwnClass">
+      <UniqueIdentifier>{fcef512c-babc-42ea-98a0-8258280f989d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MyOwnClass\BodyParts">
+      <UniqueIdentifier>{ee7591cc-7a1d-4e93-9c48-66ec7be956af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MyOwnClass\Creatures">
+      <UniqueIdentifier>{108395ca-2e4c-4cf7-8e08-0c94ea8688df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyOwnClass\BodyParts">
+      <UniqueIdentifier>{eceb03e4-55ef-47f8-af5f-dc2deb1be541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyOwnClass\Creatures">
+      <UniqueIdentifier>{503791eb-aea8-4fc0-a0b5-623d4639db15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MFCproject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCprojectDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wing.h">
+      <Filter>Header Files\MyOwnClass\BodyParts</Filter>
+    </ClInclude>
+    <ClInclude Include="BodyPart.h">
+      <Filter>Header Files\MyOwnClass\BodyParts</Filter>
+    </ClInclude>
+    <ClInclude Include="Hand.h">
+      <Filter>Header Files\MyOwnClass\BodyParts</Filter>
+    </ClInclude>
+    <ClInclude Include="Head.h">
+      <Filter>Header Files\MyOwnClass\BodyParts</Filter>
+    </ClInclude>
+    <ClInclude Include="Leg.h">
+      <Filter>Header Files\MyOwnClass\BodyParts</Filter>
+    </ClInclude>
+    <ClInclude Include="Tail.h">
+      <Filter>Header Files\MyOwnClass\BodyParts</Filter>
+    </ClInclude>
+    <ClInclude Include="Torso.h">
+      <Filter>Header Files\MyOwnClass\BodyParts</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicCreature.h">
+      <Filter>Header Files\MyOwnClass\Creatures</Filter>
+    </ClInclude>
+    <ClInclude Include="LeggedCreature.h">
+      <Filter>Header Files\MyOwnClass\Creatures</Filter>
+    </ClInclude>
+    <ClInclude Include="WingedCreature.h">
+      <Filter>Header Files\MyOwnClass\Creatures</Filter>
+    </ClInclude>
+    <ClInclude Include="CreaturesCanvas.h">
+      <Filter>Header Files\MyOwnClass</Filter>
+    </ClInclude>
+    <ClInclude Include="SlitheringCreature.h">
+      <Filter>Header Files\MyOwnClass\Creatures</Filter>
+    </ClInclude>
+    <ClInclude Include="TailedCreature.h">
+      <Filter>Header Files\MyOwnClass\Creatures</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanoidCreature.h">
+      <Filter>Header Files\MyOwnClass\Creatures</Filter>
+    </ClInclude>
+    <ClInclude Include="CimeraCreature.h">
+      <Filter>Header Files\MyOwnClass\Creatures</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonCreature.h">
+      <Filter>Header Files\MyOwnClass\Creatures</Filter>
+    </ClInclude>
+    <ClInclude Include="ReptilianCreature.h">
+      <Filter>Header Files\MyOwnClass\Creatures</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelCreature.h">
+      <Filter>Header Files\MyOwnClass\Creatures</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MFCproject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCprojectDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Head.cpp">
+      <Filter>Source Files\MyOwnClass\BodyParts</Filter>
+    </ClCompile>
+    <ClCompile Include="BodyPart.cpp">
+      <Filter>Source Files\MyOwnClass\BodyParts</Filter>
+    </ClCompile>
+    <ClCompile Include="Torso.cpp">
+      <Filter>Source Files\MyOwnClass\BodyParts</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicCreature.cpp">
+      <Filter>Source Files\MyOwnClass\Creatures</Filter>
+    </ClCompile>
+    <ClCompile Include="LeggedCreature.cpp">
+      <Filter>Source Files\MyOwnClass\Creatures</Filter>
+    </ClCompile>
+    <ClCompile Include="CreaturesCanvas.cpp">
+      <Filter>Source Files\MyOwnClass</Filter>
+    </ClCompile>
+    <ClCompile Include="WingedCreature.cpp">
+      <Filter>Source Files\MyOwnClass\Creatures</Filter>
+    </ClCompile>
+    <ClCompile Include="SlitheringCreature.cpp">
+      <Filter>Source Files\MyOwnClass\Creatures</Filter>
+    </ClCompile>
+    <ClCompile Include="TailedCreature.cpp">
+      <Filter>Source Files\MyOwnClass\Creatures</Filter>
+    </ClCompile>
+    <ClCompile Include="HumanoidCreature.cpp">
+      <Filter>Source Files\MyOwnClass\Creatures</Filter>
+    </ClCompile>
+    <ClCompile Include="CimeraCreature.cpp">
+      <Filter>Source Files\MyOwnClass\Creatures</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonCreature.cpp">
+      <Filter>Source Files\MyOwnClass\Creatures</Filter>
+    </ClCompile>
+    <ClCompile Include="ReptilianCreature.cpp">
+      <Filter>Source Files\MyOwnClass\Creatures</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelCreature.cpp">
+      <Filter>Source Files\MyOwnClass\Creatures</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCproject.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCproject.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFCproject.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
